@@ -1,0 +1,255 @@
+._jCalender_global_single {
+	font-family: "微软雅黑";
+	font-size: 13px;
+	text-align: center;
+	width: 224px;
+	position: absolute;
+	z-index: 100;
+}
+._jCalender_global_double {
+	font-family: "微软雅黑";
+	font-size: 13px;
+	text-align: center;
+	width: 420px;
+	position: absolute;
+	z-index: 100;
+}
+table._jCalender_table {
+	background-color: #F2F2F2;
+	color: #333333;
+}
+table._jCalender_table td{
+    padding:0px 0px 0px 0px;
+    border: solid 1px #E2E2E2;
+    text-align: center;
+}
+._jCalender_border_left {
+	border-left: solid 1px #E2E2E2;
+}
+._jCalender_border_right {
+	border-right: solid 1px #E2E2E2;
+}
+._jCalender_title {
+	font-family: "微软雅黑";
+	font-weight: bolder;
+	font-size: 14px;
+	background: url('title_bg.png') repeat-x;
+	color: #FFFFFF;
+	cursor: default;
+}
+._jCalender_title input {
+	font-family: "微软雅黑";
+	font-weight: bolder;
+	border: none;
+	text-align: center;
+	height: 28px;
+	line-height: 28px;
+	cursor: pointer;
+}
+._jCalender_title_text_default {
+	background: url('title_button_bg.png') repeat-x;
+	color: #FFFFFF;
+}
+._jCalender_title_text_selected {
+	background-color: #FFFFFF;
+	color: #333333;
+}
+tr._jCalender_title td {
+	border-top: solid 1px #000000;
+	border-left:0px;
+	border-right:0px;
+	border-bottom:0px;
+	width: 30px;
+	height: 34px;
+}
+._jCalender_title img {
+	border: 0px;
+	cursor: pointer;
+}
+._jCalender_title_left {
+	background-image: url('cal_left.png');
+	border-left: solid 1px #000000;
+	cursor: pointer;
+}
+._jCalender_title_right {
+	background-image: url('cal_right.png');
+	border-right: solid 1px #000000;
+	cursor: pointer;
+}
+tr._jCalender_header td {
+	background: url('header_bg.png') repeat-x;
+	height: 26px;
+	line-height: 26px;
+	border:0px;
+}
+._jCalender_content_main{
+	border: solid 1px #E2E2E2;
+	background: url('com_bg.png') repeat-x;
+	color: #333333;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	font-weight: bolder;
+}
+._jCalender_content_main_rang {
+	border: solid 1px #E2E2E2;
+	background-color: #2EA2E6;
+	color: #333333;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	font-weight: bolder;
+}
+._jCalender_content_sub {
+	border: solid 1px #E2E2E2;
+	background: url('com_bg.png') repeat-x;
+	color: #979797;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+._jCalender_content_sub_rang {
+	border: solid 1px #E2E2E2;
+	background-color: #2EA2E6;
+	color: #979797;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+._jCalender_content_today {
+	border: solid 1px #E2E2E2;
+	background: url('tod_bg.png') repeat-x;
+	color: #FFFFFF;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+._jCalender_content_sel {
+	border: solid 1px #092AF1;
+	background: url('sel_bg.png') repeat-x;
+	color: #FFFFFF;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+._jCalender_content_enabled {
+	border: solid 1px #E2E2E2;
+	background: url('en_bg.jpg') no-repeat;
+	color: #333333;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	font-weight: bolder;
+}
+._jCalender_bottom_tool {
+	width: 30px;
+	height: 26px;
+	line-height: 26px;
+}
+tr._jCalender_bottom_tool td{
+    border:0px;
+}
+._jCalender_bottom_tool a:link {
+	color: #333333;
+	text-decoration: none;
+}
+._jCalender_bottom_tool a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+._jCalender_bottom_tool a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+._jCalender_bottom_foot{
+    background-color: #F2F2F2;
+}
+tr._jCalender_bottom_foot td{
+    border:0px;
+    height:7px;
+}
+._jCalender_bottom_foot_left {
+	background-image: url('bottom_left.png');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+._jCalender_bottom_foot_middle {
+	background: url('bottom_bg.png') repeat-x;
+}
+._jCalender_bottom_foot_right {
+	background-image: url('bottom_right.png');
+	background-repeat: no-repeat;
+	background-position: left;
+}
+/* 年 */
+._jCalender_global_yearPop {
+	width: 50px;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: solid 2px #E2E2E2;
+	position: absolute;
+	z-index: 110;
+	display: none;
+}
+table._jCalender_global_yearPop td {
+	width: 50px;
+    font-family: "微软雅黑";
+	font-size: 13px;
+	font-weight: bolder;
+	cursor: pointer;
+	padding:0px 0px 0px 0px;
+    border: solid 1px #E2E2E2;
+}
+tr._jCalender_global_yearPop_top td{
+    background-image: url('year_top.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	height:10px;
+}
+tr._jCalender_global_yearPop_bottom td {
+	background-image: url('year_bottom.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height:10px;
+}
+._jCalender_global_yearPop_normal {
+	background-color: #FFFFFF;
+	color: #333333;
+}
+._jCalender_global_yearPop_selected {
+	background-color: #2D5FEB;
+	color: #FFFFFF;
+}
+/* 月 */
+._jCalender_global_monthPop {
+	width: 80px;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: solid 2px #E2E2E2;
+	position: absolute;
+	z-index: 110;
+	display: none;
+}
+table._jCalender_global_monthPop td {
+	width: 40px;
+	height:20px;
+	line-height:20px;
+	cursor: pointer;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	font-weight: bolder;
+	padding:0px 0px 0px 0px;
+    border: solid 1px #E2E2E2;
+}
+._jCalender_global_monthPop_normal {
+	background-color: #FFFFFF;
+	color: #333333;
+}
+._jCalender_global_monthPop_enabled {
+	background-color: #FFFFFF;
+	color: #979797;
+}
+._jCalender_global_monthPop_selected {
+	background-color: #2D5FEB;
+	color: #FFFFFF;
+}
